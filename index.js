@@ -6,7 +6,7 @@ const client = new Client({
     intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] // Add GUILD_MESSAGES intent for message handling
 });
 
-## Made By Ghost Planet
+// Made By Ghost Planet
 
 client.once('ready', () => {
     console.log(`Logged in as ${client.user.tag}!`);

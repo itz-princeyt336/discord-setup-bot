@@ -5,7 +5,9 @@ const fs = require('fs');
 const client = new Client({
     intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] // Add GUILD_MESSAGES intent for message handling
 });
+
 ## Made By Ghost Planet
+
 client.once('ready', () => {
     console.log(`Logged in as ${client.user.tag}!`);
     client.user.setActivity('!setup', { type: 'LISTENING' });

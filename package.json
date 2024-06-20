@@ -1,0 +1,16 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot with slash commands",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^13.17.1",
+    "dotenv": "^10.0.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=16.6.0"
+  }
+}

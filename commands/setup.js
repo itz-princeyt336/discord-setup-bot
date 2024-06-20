@@ -111,3 +111,5 @@ module.exports = {
     description: 'Sets up a basic Discord server structure.',
     execute
 };
+
+// All Credits Goes to Friday by Ghost Planet

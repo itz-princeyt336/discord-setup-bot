@@ -1,7 +1,7 @@
 {
-  "name": "discord-bot",
+  "name": "Setup Bot",
   "version": "1.0.0",
-  "description": "A Discord bot with slash commands",
+  "description": "A Basic Server Setup Discord bot",
   "main": "index.js",
   "dependencies": {
     "discord.js": "^13.17.1",
